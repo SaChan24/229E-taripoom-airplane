@@ -8,9 +8,9 @@ public class airplane : MonoBehaviour
     [SerializeField] float drag = 0.001f;
     [SerializeField] float angularDrag = 0.001f;
 
-    [SerializeField] float yawpower = 50f;
-    [SerializeField] float pitchpower = 50f;
-    [SerializeField] float rollpower = 30f;
+    [SerializeField] float yawpower = 2f;
+    [SerializeField] float pitchpower = 2f;
+    [SerializeField] float rollpower = 3f;
 
     
     void Start()
